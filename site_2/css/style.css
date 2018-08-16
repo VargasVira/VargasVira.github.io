@@ -1,0 +1,22 @@
+/*h1, p, img{
+	margin-left:60px;
+}*/
+.conteiner{
+	width:1164px;
+	margin:0 auto;
+	/* margin: 10px 20px 30px 40px] * атоматично підбивати розмір зліва і мпрва прифіксованій ширині блоку 
+	пишеться по часові стрілці зверху 20рх справ знизу зліва
+	padding так само використовуються але рідше ніж margin*/
+}
+/*.first{
+margin-left:60px;
+}*/
+header {
+	 text-align: center;
+	 
+}
+.second{
+width:906px;
+margin: 0 auto;
+text-align: center;
+}
