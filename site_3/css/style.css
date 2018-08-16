@@ -1,0 +1,24 @@
+.wrap{
+	width:960;
+	margin: auto;
+}
+header{
+background:green;
+}
+.content{
+width:80%;
+background: red;
+float:left;
+}
+.content,.aside{
+height:400px;
+}
+ .aside {
+width:20%;
+background: yellow;
+float:left;
+}
+footer{
+background:blue;
+clear:both;
+}
