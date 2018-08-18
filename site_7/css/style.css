@@ -1,0 +1,83 @@
+header{
+	background:#795548;
+    text-align: center;
+	padding: 30px;
+    font-size: 35px;
+    color: white;
+	font-family: Calibri;
+
+    /*background-image: url(chocolate_2.gif);
+	margin: -1.3em 0em 0em 0em;*/
+	}
+
+
+
+section{
+
+	
+    width:960;
+	margin: auto;
+}
+
+nav{
+	width: 20%;
+    float: left;
+	height:900px;
+	background-color:#a780715e;
+	font-family: Calibri;
+	
+	
+}
+
+article{
+	float: left;
+    width: 78%;
+	height:900px;
+    background-color: #b1745e91;
+	padding: 0 1% 0 1%;
+	text-align: justify;
+	font-family: Calibri;
+}
+
+footer{
+	background-color: #86655a;
+    text-align: center;
+    color: white; 
+	clear: both;
+	font-family: Calibri;
+
+}
+
+.riznovud{
+	text-decoration: underline;
+	
+
+}
+.lab{
+ color:#840909;
+ font-size: 25px;
+ 
+}
+
+.akcia{
+ color:green;
+ font-size: 15px;
+ text-decoration: line-through;
+ padding-left:1%;
+
+}
+
+.price{
+ color:#840909;
+ font-size: 20px;
+ text-decoration: none;
+ 
+}
+
+.comentar{
+ vertical-align: top;
+
+}
+.right{
+padding-left:5%;
+}
