@@ -1,0 +1,163 @@
+body{
+	 background-color: #1bc119ba;
+}
+.header{
+	
+	width:100%;
+
+}
+.block_1{
+  /*background-color: #1ad818;* колір 2*/
+ /*background-color: #1bc119ba;колір 1*/
+ display:block;
+ float:left;
+ width:90%;
+ height:100px;
+ text-align: center;
+ font-size:24px;
+font-family: Algerian;
+text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+.block_1_2{
+    display:block;
+	float:left;
+	width:1%;
+	height:100px;
+}
+.nav{
+	width:100%;
+	height:28%;
+	overflow:hidden; 
+	padding: o 5px 50px 5px; 
+	margin:0;  
+	
+}
+.nav_1{
+	width:100%;
+	margin: 0 10px 73px 0;
+    padding: 0 ;
+	background-color: #1bc119ba;
+	
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+  
+
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 0 16px 0;
+    text-decoration: none;
+	list-style-type: none;
+	font-family:Arial;
+	font-weight: bold;
+	}
+li {
+    float: left;
+	background-color: #1ad818;
+	width: 20%;
+}
+li a:hover {
+    background-color:#1bc119ba ;
+}
+.content{
+	clear: both;
+}
+.nav_2{
+	background-color:#a4aba4ba;
+	width:100%;
+	height:10px;
+	overflow:hidden; 
+}
+
+.content{
+	width:100%;
+	display:block;
+	overflow:hidden; 
+	padding:0;
+}
+.content_1{
+	display:block;
+	width:64%;
+	height:450px;
+	background-color: #1ad818;
+	float: left;
+	margin-top:1%;
+	margin-bottom:1%;
+	padding-left:1%;
+	
+	
+}
+.zagolovok{
+	font-size:35px;
+	font-family: Algerian;
+	text-align: center;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+.content .content_1_2  p{
+	font-family:Arial;
+	line-height: 1.8;
+	font-size:14px;
+	
+}
+
+.content_2{
+	width:31%;
+	height:450px;
+	background-color: #1ad818;
+	margin-left:1%;
+	float: left;
+	display:block;
+	padding-left:2%;
+	padding-right:1%;
+	margin-top:1%;
+	margin-bottom:1%;
+
+}
+.content_3{
+	display:block;
+	background-color:#a4aba4ba;
+	width:100%;
+	height:10px;
+	overflow:hidden; 
+}
+footer{
+	clear: both;
+	width:100%;
+	height:30%;
+	padding-left:10px;
+	font-family:Arial;
+	line-height: 1.5;
+	
+}
+.content_2 p {
+	text-align: center;
+	font-size:35px;
+	font-family: Algerian;
+	line-height: 0.5;
+}
+
+.img_1, .img_2, .img_3, .img_4{
+	 display:inline-block;
+	 padding-left:-1px;
+	 padding-right:-1px;
+	 margin:0 50 0 10;
+	 
+
+
+}	 
+
+	
+	 
+	
+   
+
+ 
