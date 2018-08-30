@@ -1,0 +1,153 @@
+body{
+	 background-color: #1bc119ba;
+}
+
+* {
+  padding: 5px;
+  margin: 5px;
+  
+}
+.header {
+   display: flex;
+ 
+}
+.block_1, .block_2{
+  /*background-color: #1ad818;* колір 2*/
+ /*background-color: #1bc119ba;колір 1*/
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ flex-direction : column; 
+ 
+}
+.block_1{
+	display:flex;
+	flex-basis:180%;
+	text-align: center;
+ font-size:24px;
+font-family: Algerian;
+text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+	
+}
+.block_2{
+	display:flex;
+	flex-basis:20%;
+}
+
+.nav{
+	display:flex;
+	overflow:hidden; 
+	justify-content:space-between;
+	background-color: #1ad818;
+}
+.nav_1{
+	
+}
+
+ a {
+    display: flex;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+	list-style-type: none;
+	font-family:Arial;
+	font-weight: bold;
+	
+	}
+.nav_6{
+	display: flex;
+	background-color:#a4aba4ba;
+	justify-content:space-between;
+	
+}
+
+
+.content{
+	
+	display: flex;
+	justify-content:space-between;
+	
+	
+}
+.content .content_1{
+	display: flex;
+	background-color: #1ad818;
+	flex-basis:120%;
+	flex-direction:column;
+	 
+	
+	
+}
+ .content_2_1 p{
+	font-size:35px;
+	font-family: Algerian;
+	text-align: center;
+	margin:1% 0 10% 0;
+	}
+.zagolovok  p{
+	font-size:35px;
+	font-family: Algerian;
+	text-align: center;
+	margin: -2% 0 0 0;
+	}
+
+
+.content_1_2,  p{
+	font-family:Arial;
+	line-height: 1.8;
+	font-size:14px;
+}
+
+.content_2{
+	
+	background-color: #1ad818;
+	display: flex;
+	flex-basis:40%;
+	flex-direction:column;
+}
+.row{
+ 
+	display: flex;
+    flex-wrap: wrap;
+   	margin:0 0 -8% -7%;
+	justify-content:flex-start;
+	overflow:hidden;
+	
+	
+}
+.column_1, .column_2, .column_3, .column_4{
+	 flex: 35%; 
+     padding: 0 ; 
+	}
+img{
+ width:109%;
+
+}
+.content_3{
+	display:flex;;
+	background-color:#a4aba4ba;
+	justify-content:space-between;
+	
+}
+footer{
+	display:flex;
+	
+	font-family:Arial;
+	line-height: 1.5;
+	justify-content:space-between;
+}
+.content_2 p {
+	text-align: center;
+	font-size:35px;
+	font-family: Algerian;
+	line-height: 0.5;
+}
+
+@media (max-width: 800px) {
+    .block_1, .block_2{
+  	background-color:red;
+ 
+}
+}	 
